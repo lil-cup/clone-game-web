@@ -38,7 +38,7 @@ body {
 }
 
 #status {
-	background-color: #33324f;
+	background-color: #2f8fe6;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -92,7 +92,7 @@ body {
 		</style>
 		<link id="-gd-engine-icon" rel="icon" type="image/png" href="clone-game.icon.png" />
 <link rel="apple-touch-icon" href="clone-game.apple-touch-icon.png"/>
-
+<style>#status-splash.fullsize--true { object-fit: cover; }</style>
 	</head>
 	<body>
 		<canvas id="canvas">
@@ -104,14 +104,14 @@ body {
 		</noscript>
 
 		<div id="status">
-			<img id="status-splash" class="show-image--true fullsize--false use-filter--true" src="clone-game.png" alt="">
+			<img id="status-splash" class="show-image--true fullsize--true use-filter--true" src="clone-game.png" alt="">
 			<progress id="status-progress"></progress>
 			<div id="status-notice"></div>
 		</div>
 
 		<script src="clone-game.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"clone-game","experimentalVK":false,"fileSizes":{"clone-game.pck":480904,"clone-game.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"clone-game","experimentalVK":false,"fileSizes":{"clone-game.pck":1985724,"clone-game.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
